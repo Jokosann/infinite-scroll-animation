@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Infinity Scroll Animation</title>
+	</head>
+	<body>
+		<!-- direction left(default) -->
+		<div class="scroller" data-direction="left">
+			<ul class="slider">
+				<li>Html</li>
+				<li>Css</li>
+				<li>Javascript</li>
+				<li>Tailwind</li>
+				<li>React</li>
+			</ul>
+		</div>
+		<!-- direction right -->
+		<div class="scroller" data-direction="right">
+			<ul class="slider">
+				<li>Html</li>
+				<li>Css</li>
+				<li>Javascript</li>
+				<li>Tailwind</li>
+				<li>React</li>
+			</ul>
+		</div>
+		<!-- speed slow -->
+		<div class="scroller" style="--_animation-direction: forwards" data-speed="slow">
+			<ul class="slider">
+				<li>Html</li>
+				<li>Css</li>
+				<li>Javascript</li>
+				<li>Tailwind</li>
+				<li>React</li>
+			</ul>
+		</div>
+		<!-- speed fast -->
+		<div class="scroller" data-speed="fast">
+			<ul class="slider">
+				<li>Html</li>
+				<li>Css</li>
+				<li>Javascript</li>
+				<li>Tailwind</li>
+				<li>React</li>
+			</ul>
+		</div>
+		<!-- script.js -->
+		<script src="script.js"></script>
+	</body>
+</html>
